@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ROMAN NUMERAL CONVERTER</string>
+    <string name="todo">TODO</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="del">DEL</string>
+    <string name="_7">7</string>
+    <string name="_9">9</string>
+    <string name="minus">-</string>
+    <string name="equal">=</string>
+    <string name="_0">0</string>
+    <string name="plus">+</string>
+    <string name="_8">8</string>
+    <string name="_1">1</string>
+    <string name="roman_numerals">ROMAN NUMERALS</string>
+    <string name="decimals">DECIMALS</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="i">I</string>
+    <string name="v">V</string>
+    <string name="x">X</string>
+    <string name="l">L</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="m">M</string>
+    <string name="e">E</string>
+    <string name="q">Q</string>
+    <string name="roman">ROMAN</string>
+</resources>

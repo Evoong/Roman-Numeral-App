@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eric.myapplication20.com.example.eric.myapplication.MainActivity">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:text="@string/_7"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_8"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_9"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CLR"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_4"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_5"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_6"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonDEL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/del"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_1"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_2"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_3"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonPlus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/plus"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/button29"
+                style="@android:style/Widget.Holo.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="false"
+                android:text="@string/_0"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonEqual"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/equal"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/buttonMinus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/minus"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="@android:dimen/notification_large_icon_height"
+                android:visibility="visible" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/answer"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/black"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputText"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <TextView
+        android:id="@+id/inputText"
+        android:layout_width="9000dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="172dp"
+        android:textAlignment="textEnd"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/switcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
+
+    <TextView
+        android:id="@+id/from"
+        style="@android:style/Widget.Material.Light.EditText"
+        android:layout_width="195dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="31dp"
+        android:text="DECIMAL"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/switcher"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/to"
+        style="@android:style/Widget.Material.Light.EditText"
+        android:layout_width="195dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="31dp"
+        android:text="ROMAN"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/switcher"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
